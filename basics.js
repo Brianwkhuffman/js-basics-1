@@ -35,8 +35,7 @@ var dataTypes = ['abcd', 1, true, undefined, null, {firstname: 'mew', pet: 'cat'
  */
 var dog = {
     name: 'Spot',
-    sound: function bark(){
-        return 'bark';
+    bark: function(){
+        console.log('bark!');
     }
 }
-dog.sound().call;
